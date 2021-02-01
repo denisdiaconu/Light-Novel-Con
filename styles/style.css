@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  height: auto;
+  width: 100%;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+/* nav bar phone */
+
+#nav_bar_phone {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+#dropMenu {
+  font-size: 30px;
+  color: #545454;
+}
+
+#dropMenu:hover {
+  cursor: pointer;
+  border: 5px solid #545454;
+  border-radius: 20px;
+  color: white;
+  background-color: #545454;
+}
+
+.dropdown-item:hover {
+  background-image: url(/images/1853716.jpg);
+}
+
+/* main content */
+
+main {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  background-color: #f5f5f5
+}
+
+#section1 {
+  width: 100%;
+  height: auto;
+}
+
+#section1 > p {
+  color: #f84328;
+  font-size: 26px;
+}
+
+#section1 > h1 {
+  color: #f84328;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#section1 > div {
+  border: 5px solid white;
+  padding: 15px 0 15px 0;
+  border-radius: 10px;
+  margin: 25px 0 25px 0;
+}
+
+#section1 > h5 {
+  margin: 20px 0 60px 0;
+  font-size: 40px;
+}
+
+#section1 > div:hover {
+  background-image: url(/images/1853716.jpg);
+}
+
+#section2 {
+  background-color: #272a31;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#program_cont {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+}
+
+#program_cont > div {
+  display: grid;
+  background-color: #383b43;
+  grid-template-columns: 40% 60%;
+  height: 130px;
+  border-radius: 10px;
+}
+
+#program_cont > div > div {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 40% 60%;
+}
+
+#program_cont > div > div > i {
+  justify-self: center;
+  font-size: 30px;
+  color: white;
+}
+
+#program_cont > div > div > h4 {
+  color: #ff4f38;
+  margin-left: 0;
+  font-size: 20px;
+}
+
+#program_cont > div > p {
+  color: white;
+  align-self: center;
+}
+
+#section2 > div > h5 {
+  color: white;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #993225;
+}
+
+#title_cont {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#join {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#join > a {
+  font-size: 18px;
+  color: white;
+  background-color: #ff4f38;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+#section3 {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+#title_sec3 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+#section3 > div > h3 {
+  justify-self: center;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #ff4f38;
+}
+
+#section3 > div > div > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+#section3 > div > div {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  column-gap: 20px;
+}
+
+.small_line {
+  background-color: #dcdcdc;
+  width: 50px;
+  height: 3px;
+}
+
+#main_div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+#main_div > div > div {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+div > div > h4 {
+  font-weight: bold;
+}
+
+div > div > p {
+  font-size: 17px;
+}
+
+.special {
+  color: #ff4f38;
+}
+
+#join > a:hover {
+  color: #ff4d3c;
+  background-color: #383b43;
+  border: 3px solid #ff4d3c;
+}
+
+img {
+  cursor: pointer;
+}
+
+/* footer*/
+
+footer {
+  margin-top: 100px;
+}
+
+#footer1 {
+  width: 100%;
+  height: auto;
+  background-color: #414246;
+}
+
+#footer2 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+#footer2 > div > p {
+  font-size: 14px;
+}
+
+#partner_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 20px;
+  padding: 20px 0 20px 0;
+}
+
+#partner_list > img {
+  height: 50px;
+}
+
+#title_footer {
+  display: flex;
+  justify-content: center;
+}
+
+#title_footer > h3 {
+  padding-bottom: 20px;
+  border-bottom: 5px solid #ff4f38;
+}
