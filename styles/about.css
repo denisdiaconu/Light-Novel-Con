@@ -278,3 +278,60 @@ main {
   border-bottom: 5px solid #ff4f38;
   color: white;
 }
+
+/* Media Querry */
+
+@media (min-width: 768px) {
+  #section1 {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 70px;
+  }
+
+  #section1 > h1 {
+    font-size: 60px;
+  }
+
+  #section2 {
+    padding-top: 50px;
+  }
+
+  #section2 > div {
+    width: 50%;
+  }
+
+  #section2 > div > img {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    min-height: 400px;
+    margin: auto;
+  }
+
+  #section3_div {
+    width: 70%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #conference1 {
+    max-width: 500px;
+    min-width: 350px;
+  }
+
+  #conference2 {
+    max-width: 500px;
+    min-width: 350px;
+  }
+
+  #partner_list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    width: 70%;
+    margin: auto;
+  }
+
+  #footer2 {
+    justify-content: center;
+  }
+}
