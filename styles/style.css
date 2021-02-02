@@ -276,10 +276,12 @@ footer {
 
 #title_footer {
   display: flex;
+  padding-top: 20px;
   justify-content: center;
 }
 
 #title_footer > h3 {
   padding-bottom: 20px;
   border-bottom: 5px solid #ff4f38;
+  color: white;
 }
