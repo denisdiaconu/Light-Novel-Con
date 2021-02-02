@@ -157,6 +157,7 @@ main {
 
 #section1 > div:hover {
   background-image: url(/images/1853716.jpg);
+  color: white;
 }
 
 #section2 {
