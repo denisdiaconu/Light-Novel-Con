@@ -31,6 +31,7 @@ h1 {
   position: sticky;
   top: 0;
   z-index: 3;
+  display: grid;
 }
 
 #dropMenu {
@@ -43,6 +44,7 @@ h1 {
   border: 5px solid #545454;
   border-radius: 20px;
   color: white;
+  width: 35px;
   background-color: #545454;
 }
 
@@ -55,7 +57,7 @@ h1 {
 }
 
 .dropdown-item:active {
-  box-shadow: 0 0 30px #545454;
+  box-shadow: 0 0 30px #000000;
 }
 
 /* main content */
@@ -303,9 +305,59 @@ img {
   display: none;
 }
 
+#nav_bar_desktop {
+  display: none;
+  height: 70px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#about {
+  color: #f84328;
+}
+
+#menu {
+  color: #a8a8a8;
+}
+
+#tickets {
+  color: #a8a8a8;
+}
+
+#nav_bar_desktop > a {
+  height: 100%;
+  font-size: 30px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+#nav_bar_desktop > a:hover {
+  background-image: url(/images/1193275.jpg);
+  background-position: center;
+  transform: rotate(10deg);
+  transition: transform 1s;
+}
+
 /* Media querry */
 
 @media (min-width: 768px) {
+  #nav_bar_phone {
+    display: none;
+  }
+
+  #nav_bar_desktop {
+    display: flex;
+  }
+
   #program_cont {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 80%;
