@@ -362,6 +362,10 @@ img {
   padding-left: 5px;
 }
 
+#test2 {
+  background-image: unset;
+}
+
 /* Media querry */
 
 @media (min-width: 768px) {
@@ -375,6 +379,10 @@ img {
 
   #nav_bar_desktop {
     display: flex;
+  }
+
+  #test2 {
+    background-image: url(/images/source2.gif);
   }
 
   #program_cont {

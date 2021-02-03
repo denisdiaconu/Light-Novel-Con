@@ -120,6 +120,7 @@ img {
   flex-direction: column;
   width: 100%;
   row-gap: 40px;
+  background-image: url(/images/source.gif);
 }
 
 #section1 > h3 {
