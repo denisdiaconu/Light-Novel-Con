@@ -160,6 +160,11 @@ main {
   color: white;
 }
 
+#nav_bar_desktop > a:hover::after {
+  content: ">";
+  padding-left: 5px;
+}
+
 #section2 {
   width: 100%;
   height: auto;
