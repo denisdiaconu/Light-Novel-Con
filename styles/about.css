@@ -7,17 +7,28 @@ html {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: 'cocogoose';
+  src: url(/fonts/Cocogoose\ Pro-trial.ttf);
+  font-style: normal;
+}
+
 body {
   height: auto;
   width: 100%;
 }
 
-p {
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Lato', sans-serif;
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: cocogoose;
   font-weight: bold;
 }
 

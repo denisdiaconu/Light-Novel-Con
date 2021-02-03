@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'cocogoose';
+  src: url(/fonts/Cocogoose\ Pro-trial.ttf);
+  font-style: normal;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -12,12 +18,17 @@ body {
   width: 100%;
 }
 
-p {
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Lato', sans-serif;
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: cocogoose;
   font-weight: bold;
 }
 
@@ -439,5 +450,6 @@ img {
   #section1 {
     margin-left: 10%;
     width: 50%;
+    min-height: 440px;
   }
 }
