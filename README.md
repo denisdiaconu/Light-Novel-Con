@@ -21,7 +21,7 @@ In this project, I used all the knowledge I attained about HTML & CSS. I build a
 ## Live Demo
 
 HEAD TO
-[Capstone Project](https://denisdiaconu.github.io/Newsweek-clone/)
+[Capstone Project](https://denisdiaconu.github.io/Light-Novel-Con/)
 =======
 
 
