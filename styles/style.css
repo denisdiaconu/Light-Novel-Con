@@ -385,7 +385,7 @@ img {
   }
 
   #test {
-    background-image: url(/images/animec.png);
+    background-image: url(./images/animec.png);
   }
 
   #nav_bar_desktop {
@@ -393,7 +393,7 @@ img {
   }
 
   #test2 {
-    background-image: url(/images/source2.gif);
+    background-image: url(./images/source2.gif);
   }
 
   #program_cont {
