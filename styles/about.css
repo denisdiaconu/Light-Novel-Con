@@ -28,7 +28,7 @@ h6 {
 }
 
 h1 {
-  font-family: cocogoose;
+  font-family: cocogoose, sans-serif;
   font-weight: bold;
 }
 
@@ -166,6 +166,15 @@ main {
   font-size: 40px;
 }
 
+#section2 > div {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
 #section1 > div:hover {
   background-image: url(/images/1853716.jpg);
   color: white;
@@ -191,18 +200,13 @@ main {
   background-position-x: 101%;
 }
 
+#partner_list > img {
+  height: 50px;
+}
+
 #section2 > h2 {
   color: #f84328;
   margin: 15px auto 35px auto;
-}
-
-#section2 > div {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  width: 60%;
-  text-align: center;
-  margin: auto;
 }
 
 #section2 > div > img {
@@ -327,10 +331,6 @@ main {
   justify-items: center;
   row-gap: 20px;
   padding: 20px 0 20px 0;
-}
-
-#partner_list > img {
-  height: 50px;
 }
 
 #title_footer {
