@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'cocogoose';
-  src: url(./fonts/Cocogoose\ Pro-trial.ttf);
+  src: url(../fonts/Cocogoose\ Pro-trial.ttf);
   font-style: normal;
 }
 
@@ -64,7 +64,7 @@ h1 {
 }
 
 .dropdown-item:hover {
-  background-image: url(./images/1853716.jpg);
+  background-image: url(../images/1853716.jpg);
 }
 
 .dropdown-item:active {
@@ -158,7 +158,7 @@ img {
 }
 
 #section1 > div:hover {
-  background-image: url(./images/1853716.jpg);
+  background-image: url(../images/1853716.jpg);
   color: white;
 }
 
@@ -362,7 +362,7 @@ img {
 }
 
 #nav_bar_desktop > a:hover {
-  background-image: url(./images/1193275.jpg);
+  background-image: url(../images/1193275.jpg);
   background-position: center;
   transform: rotate(10deg);
   transition: transform 1s;
@@ -385,7 +385,7 @@ img {
   }
 
   #test {
-    background-image: url(./images/animec.png);
+    background-image: url(../images/animec.png);
   }
 
   #nav_bar_desktop {
@@ -393,7 +393,7 @@ img {
   }
 
   #test2 {
-    background-image: url(./images/source2.gif);
+    background-image: url(../images/source2.gif);
   }
 
   #program_cont {

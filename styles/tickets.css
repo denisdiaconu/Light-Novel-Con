@@ -58,7 +58,7 @@ h1 {
 }
 
 .dropdown-item:hover {
-  background-image: url(./images/1853716.jpg);
+  background-image: url(../images/1853716.jpg);
 }
 
 .dropdown-item:active {
@@ -106,7 +106,7 @@ img {
 }
 
 #nav_bar_desktop > a:hover {
-  background-image: url(./images/1193275.jpg);
+  background-image: url(../images/1193275.jpg);
   background-position: center;
   transform: rotate(10deg);
   transition: transform 1s;
@@ -125,7 +125,7 @@ img {
   flex-direction: column;
   width: 100%;
   row-gap: 40px;
-  background-image: url(./images/source.gif);
+  background-image: url(../images/source.gif);
 }
 
 #section1 > h3 {

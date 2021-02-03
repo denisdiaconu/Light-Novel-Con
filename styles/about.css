@@ -9,7 +9,7 @@ html {
 
 @font-face {
   font-family: 'cocogoose';
-  src: url(/fonts/Cocogoose\ Pro-trial.ttf);
+  src: url(../fonts/Cocogoose\ Pro-trial.ttf);
   font-style: normal;
 }
 
@@ -64,7 +64,7 @@ h1 {
 }
 
 .dropdown-item:hover {
-  background-image: url(./images/1853716.jpg);
+  background-image: url(../images/1853716.jpg);
 }
 
 .dropdown-item:active {
@@ -108,7 +108,7 @@ h1 {
 }
 
 #nav_bar_desktop > a:hover {
-  background-image: url(./images/1193275.jpg);
+  background-image: url(../images/1193275.jpg);
   background-position: center;
   transform: rotate(10deg);
   transition: transform 1s;
@@ -176,7 +176,7 @@ main {
 }
 
 #section1 > div:hover {
-  background-image: url(./images/1853716.jpg);
+  background-image: url(../images/1853716.jpg);
   color: white;
 }
 
@@ -368,7 +368,7 @@ main {
 
   #section2 {
     padding-top: 50px;
-    background-image: url(./images/cherry.png);
+    background-image: url(../images/cherry.png);
   }
 
   #section2 > div {
