@@ -145,6 +145,7 @@ img {
   width: 100%;
   row-gap: 40px;
   background-image: unset;
+  background-color: #f7f7f7;
 }
 
 #section1 > h1 {
