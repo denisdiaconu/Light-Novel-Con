@@ -469,6 +469,7 @@ img {
   #main_div > div > div > img {
     max-width: 230px;
     max-height: 230px;
+    object-fit: cover;
   }
 
   #partner_list {
