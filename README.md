@@ -53,9 +53,9 @@ HEAD TO
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone```https://github.com/denisdiaconu/TNW-Project.git`` using your terminal or command line.
+- Clone this repository with git clone```https://github.com/denisdiaconu/Light-Novel-Con.git`` using your terminal or command line.
 - Change to the project directory by entering : <br>
-```cd NYTproject``` in the terminal .
+```cd Light-Novel-Con``` in the terminal .
 
 ## 🤝 Contributing
 
