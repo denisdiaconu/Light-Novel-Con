@@ -6,7 +6,7 @@
 ![screenshot](./screenshot2.png)
 ![screenshot](./screenshot3.png)
 
-In this project, I used all the knowledge I attained about HTML & CSS. I build a page about the Light Novel Conference of 2021.
+In this project, I used all the knowledge I attained about HTML & CSS. I build a page about the Light Novel Conference of 2021. This is the Capstone project for the CSS & HTML module of the Microverse Program.
 
 ## Built With
 
