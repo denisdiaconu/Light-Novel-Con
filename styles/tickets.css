@@ -1,0 +1,438 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  height: auto;
+  width: 100%;
+}
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+#special {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #383b43;
+  margin-right: 20%;
+}
+
+/* nav bar phone */
+
+#black_nav {
+  background-color: #3e3e3e;
+  width: 100%;
+  height: 40px;
+  display: none;
+  column-gap: 30px;
+  align-items: center;
+}
+
+#black_nav > div {
+  margin-left: 60%;
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+
+#black_nav > div > i {
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+#nav_bar_desktop > a {
+  height: 100%;
+  font-size: 20px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#black_nav > div > a {
+  color: white;
+}
+
+#nav_bar_phone {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: grid;
+}
+
+#dropMenu {
+  font-size: 30px;
+  color: #545454;
+}
+
+#dropMenu:active {
+  box-shadow: 0 0 30px #545454;
+}
+
+.dropdown-item:hover {
+  background-image: unset;
+}
+
+.dropdown-item:active {
+  box-shadow: 0 0 30px #000;
+}
+
+img {
+  cursor: pointer;
+}
+
+#nav_bar_desktop {
+  display: none;
+  height: 70px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#about {
+  color: #f84328;
+}
+
+#menu {
+  color: #a8a8a8;
+}
+
+#tickets {
+  color: #a8a8a8;
+}
+
+#nav_bar_desktop > a:hover::after {
+  content: ">";
+  padding-left: 5px;
+}
+
+/* main part */
+
+#section1 {
+  padding: 100px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 40px;
+  background-image: unset;
+  background-color: #f7f7f7;
+}
+
+#section1 > h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: auto;
+}
+
+#hide {
+  display: none;
+}
+
+th > p {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#section1 > p {
+  border: 2px solid #eaeaea;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+}
+
+#section3 {
+  padding: 100px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 40px;
+}
+
+#section3 > h3 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: auto;
+}
+
+#section3 > p {
+  border: 2px solid #eaeaea;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+}
+
+#section2 {
+  background-color: #f7f7f7;
+  padding: 70px 0 70px 0;
+}
+
+table {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  border: 4px solid #f84328;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f84328;
+}
+
+td {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid #e5e5e5;
+  background-color: #fefefe;
+}
+
+th {
+  border: 3px solid #e5e5e5;
+}
+
+input {
+  display: block;
+  width: 100%;
+}
+
+#section4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+#section5 > h3 {
+  width: 200px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #f35b43;
+  cursor: pointer;
+}
+
+#title_footer > h3 {
+  padding-bottom: 20px;
+  border-bottom: 5px solid #ff4f38;
+  color: white;
+}
+
+#section4 > div > h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#author1 {
+  background-image: url(https://static.wixstatic.com/media/3d29e1_98eab21787934c37b7d346fa9f031768~mv2.png/v1/fit/w_618%2Ch_578%2Cal_c/file.png);
+  height: 200px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 30%;
+  box-shadow: inset 0 0 0 1000px rgba(248, 60, 3, 0.3);
+  cursor: pointer;
+}
+
+#author2 {
+  background-image: url(https://alchetron.com/cdn/kazuma-kamachi-86b703ee-14ac-48a2-b9ee-8e957c84ef3-resize-750.jpeg);
+  height: 200px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 30%;
+  box-shadow: inset 0 0 0 1000px rgba(248, 60, 3, 0.3);
+  cursor: pointer;
+}
+
+#author3 {
+  background-image: url(https://cdn.myanimelist.net/images/voiceactors/2/53841.jpg);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 30%;
+  box-shadow: inset 0 0 0 1000px rgba(248, 60, 3, 0.3);
+  cursor: pointer;
+}
+
+#author4 {
+  background-image: url(https://cdn.myanimelist.net/images/voiceactors/3/60414.jpg);
+  height: 200px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 30%;
+  box-shadow: inset 0 0 0 1000px rgba(248, 60, 3, 0.3);
+  cursor: pointer;
+}
+
+#author5 {
+  background-image: url(https://m.media-amazon.com/images/M/MV5BMzkzZjQwMmYtZTg4Zi00Yzk3LTk1ZGQtM2I1NWJlOTY4YThkXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_UY317_CR1,0,214,317_AL_.jpg);
+  height: 200px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 30%;
+  box-shadow: inset 0 0 0 1000px rgba(248, 60, 3, 0.3);
+  cursor: pointer;
+}
+
+#author6 {
+  background-image: url(https://cdn.myanimelist.net/images/voiceactors/3/40889.jpg);
+  height: 200px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 30%;
+  box-shadow: inset 0 0 0 1000px rgba(248, 60, 3, 0.3);
+  cursor: pointer;
+}
+
+#section5 {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#section5 > h3:hover {
+  background-color: #272a31;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #272a31;
+}
+
+/* footer part */
+
+#footer1 {
+  width: 100%;
+  height: auto;
+  background-color: #414246;
+}
+
+#footer2 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+#footer2 > div > p {
+  font-size: 14px;
+}
+
+#footer2 > img {
+  width: 40vw;
+  max-width: 300px;
+}
+
+#partner_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 20px;
+  padding: 20px 0 20px 0;
+}
+
+#partner_list > img {
+  height: 50px;
+}
+
+#title_footer {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+/* Media querry part */
+
+@media (min-width: 768px) {
+  #nav_bar_phone {
+    display: none;
+  }
+
+  #black_nav {
+    display: flex;
+  }
+
+  table {
+    width: 50%;
+  }
+
+  #nav_bar_desktop {
+    display: flex;
+  }
+
+  #partner_list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    width: 70%;
+    margin: auto;
+  }
+
+  #footer2 {
+    justify-content: center;
+  }
+
+  #section4 {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+  }
+
+  #section4 > div > h3 {
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+}
