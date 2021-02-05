@@ -91,12 +91,33 @@ h1 {
   color: #545454;
 }
 
+#dropMenu:hover {
+  cursor: pointer;
+  border: 5px solid #545454;
+  border-radius: 20px;
+  color: white;
+  background-color: #545454;
+  width: 35px;
+}
+
+#conference1:hover {
+  border-radius: 90px;
+  box-shadow: 0 0 40px orange;
+  transition: border-radius 2s;
+}
+
+#conference2:hover {
+  border-radius: 90px;
+  box-shadow: 0 0 40px orange;
+  transition: border-radius 2s;
+}
+
 #dropMenu:active {
   box-shadow: 0 0 30px #545454;
 }
 
 .dropdown-item:hover {
-  background-image: unset;
+  background-image: url(../images/1853716.jpg);
 }
 
 .dropdown-item:active {
@@ -144,7 +165,7 @@ img {
   flex-direction: column;
   width: 100%;
   row-gap: 40px;
-  background-image: unset;
+  background-image: url(../images/source.gif);
   background-color: #f7f7f7;
 }
 
@@ -340,6 +361,17 @@ input {
   border-radius: 30%;
   box-shadow: inset 0 0 0 1000px rgba(248, 60, 3, 0.3);
   cursor: pointer;
+}
+
+#author1:hover,
+#author2:hover,
+#author3:hover,
+#author4:hover,
+#author5:hover,
+#author6:hover {
+  border-radius: 90px;
+  box-shadow: 0 0 40px orange;
+  transition: border-radius 2s;
 }
 
 #section5 {

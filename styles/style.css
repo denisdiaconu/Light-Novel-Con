@@ -97,12 +97,44 @@ h1 {
   color: #545454;
 }
 
+#dropMenu:hover {
+  cursor: pointer;
+  border: 5px solid #545454;
+  border-radius: 20px;
+  color: white;
+  background-color: #545454;
+  width: 35px;
+}
+
+#conference1:hover {
+  border-radius: 90px;
+  box-shadow: 0 0 40px orange;
+  transition: border-radius 2s;
+}
+
+#conference2:hover {
+  border-radius: 90px;
+  box-shadow: 0 0 40px orange;
+  transition: border-radius 2s;
+}
+
+#author1:hover,
+#author2:hover,
+#author3:hover,
+#author4:hover,
+#author5:hover,
+#author6:hover {
+  border-radius: 90px;
+  box-shadow: 0 0 40px orange;
+  transition: border-radius 2s;
+}
+
 #dropMenu:active {
   box-shadow: 0 0 30px #545454;
 }
 
 .dropdown-item:hover {
-  background-image: unset;
+  background-image: url(../images/1853716.jpg);
 }
 
 .dropdown-item:active {
@@ -416,7 +448,7 @@ img {
   }
 
   #test {
-    background-image: unset;
+    background-image: url(../images/animec.png);
   }
 
   #main_div > div {
@@ -428,7 +460,7 @@ img {
   }
 
   #test2 {
-    background-image: unset;
+    background-image: url(../images/source2.gif);
   }
 
   #program_cont {
